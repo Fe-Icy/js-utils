@@ -1,5 +1,8 @@
-```javascript
+```html
+es6 之后 js 创建类
+```
 
+```javascript
 class Person {
   name = 'Mike'
 
@@ -27,7 +30,6 @@ new 操作符到底做了什么？
 ```
 
 ```javascript
-
 function _new() {
   let newObj = {} // 创建一个空对象
   let [constructor, ...args] = [...arguments] // 第一个参数是构造函数
