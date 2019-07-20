@@ -17,7 +17,7 @@ const readFiles = p => {
 }
 
 const writeFile = (filename, data, filepath = __dirname) => {
-	const lastData = data + '\r'
+	const lastData = data + '\r\n'
 	console.log(lastData)
 	const lastPath = path.join(filepath, filename)
   fs.appendFileSync(lastPath, lastData, function(err) {
