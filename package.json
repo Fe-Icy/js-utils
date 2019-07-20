@@ -1,0 +1,23 @@
+{
+  "name": "charming-javascript",
+  "version": "1.0.0",
+  "description": "charming javascript",
+  "main": "reader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fe-Icy/charming-javascript.git"
+  },
+  "author": "zhengyuanbing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fe-Icy/charming-javascript/issues"
+  },
+  "homepage": "https://github.com/Fe-Icy/charming-javascript#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
