@@ -4,7 +4,7 @@ const rm = require('rimraf')
 
 const fileName = 'README.md'
 const staticContent = [
-	'### 🚀✈️🚄 js 碎片化知识\n\n'
+	'### 🚀✈️🚄 js 100 问\n\n'
 ]
 const baseUrl = 'https://github.com/Fe-Icy/charming-javascript/blob/master/'
 
@@ -17,8 +17,7 @@ const readFiles = p => {
 }
 
 const writeFile = (filename, data, filepath = __dirname) => {
-	const lastData = data + '\r\n'
-	console.log(lastData)
+	const lastData = data + '\n\n'
 	const lastPath = path.join(filepath, filename)
   fs.appendFileSync(lastPath, lastData, function(err) {
     if(err) {
