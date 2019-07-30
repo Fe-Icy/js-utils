@@ -5,7 +5,7 @@
  */
 
 function findByKey(obj, key) {
-  if(typeof obj !== 'object' || !key) return
+  if(typeof obj !== 'object' || !key) return null
   if(obj.hasOwnProperty(key)) {
     return obj[key]
   } else {
