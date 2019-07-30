@@ -16,3 +16,6 @@ function findByKey(obj, key) {
     }
   }
 }
+
+module.exports = findByKey
+
